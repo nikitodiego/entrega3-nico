@@ -28,6 +28,8 @@ user: lau@gmail.com
 
 password: test
 
+Aclaración: a los tres usuarios de prueba les puse mi número de teléfono para que me lleguen sus sms de orden de compra a mí. 
+
 Endpoints:
 
 GET / : Ruta raíz. 
