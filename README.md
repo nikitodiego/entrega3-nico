@@ -9,6 +9,7 @@ Incluye connect-flash para mensajes entre las distintas páginas del sitio, y su
 Se utiliza Winston para registro de logs.
 
 Dbaas: Mongo DB.
+
 PaaS: Heroku.
 
 Para correr el proyecto, ejecutar en consola: "npm run start".
@@ -16,12 +17,15 @@ Para correr el proyecto, ejecutar en consola: "npm run start".
 Algunos usuarios ya registrados como ejemplo (para probar inicio de sesión):
 
 user: nicojapaz@gmail.com
+
 password: test
 
 user: elian@gmail.com
+
 password: test
 
 user: lau@gmail.com
+
 password: test
 
 Endpoints:
