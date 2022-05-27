@@ -11,8 +11,12 @@
     <div><%= user.direccion %></div>
     <h4>Teléfono:</h4>
     <div><%= user.telefono %></div>
+    <h4>Carrito:</h4>
+    <div><%= carrito._id %></div>
     <h4>Tus productos:</h4>
-    <div><%= carrito.productos %></div><br>
+    <% carrito.productos.forEach((datos) => { %>
+    <div><%= datos %></div>
+    <% }) %> <br>
     
 
     <form style="margin-left: 15px;" action="/profile" method="POST">
